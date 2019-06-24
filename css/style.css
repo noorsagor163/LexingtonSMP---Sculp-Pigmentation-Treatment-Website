@@ -1,0 +1,722 @@
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin-bottom:0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+a,span {
+    display:inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family:mont-bold;
+    src:url(../Fonts/Montserrat/Montserrat-Bold.ttf)
+}
+
+@font-face {
+    font-family:mont-xtbold;
+    src:url(../Fonts/Montserrat/Montserrat-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family:robo-reg;
+    src:url(../Fonts/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family:robo-med;
+    src:url(../Fonts/Roboto/Roboto-Medium.ttf)
+}
+
+@font-face {
+    font-family:robo-bold;
+    src:url(../Fonts/Roboto/Roboto-Bold.ttf)
+}
+
+
+@font-face {
+    font-family:bebas-reg;
+    src:url(../Fonts/BebasNeue/BebasNeue-Regular.otf);
+}
+
+h2 {
+    font-family:mont-xtbold;
+    font-size:37px;
+    text-transform:uppercase;
+    color:#000;
+    padding-bottom:20px;
+}
+
+/* ================= Header Part Start ====================== */
+
+header {
+    background:#0066FF;
+    padding:18px 0;
+    position: relative;
+    z-index: 99;
+}
+
+header ul li {
+    display:inline-block;
+}
+
+header p, header ul li a {
+    font-family: robo-med;
+    font-size:18px;
+    color:#fff;
+}
+
+header ul li a:hover {
+    color:#fff;
+}
+
+header ul li a i {
+    padding-right:8px;
+}
+
+header ul li:first-child {
+    margin-right:30px;
+}
+
+/* ================= Header Part End ====================== */
+
+/* ================= Navbar Part Start ====================== */
+
+.navbar {
+    position: absolute;
+    width:100%;
+    top:77px;
+    left:0;
+    z-index:999;
+}
+
+.navbar-brand1 {
+    position: absolute;
+    top:-105px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.navbar-brand1 img {
+    transform:scale(.7)
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family:bebas-reg;
+    font-size:25px;
+    text-transform: uppercase;
+    padding: 0 10px !important;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border-bottom: 5px solid transparent;
+    color:#000000;
+    margin:0 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color:#0066FF;
+    border-bottom: 5px solid #0066FF;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #0066FF;
+    border-bottom: 5px solid #0066FF;
+}
+
+/* ================= Navbar Part End ====================== */
+
+/* ================= Banner Part End ====================== */
+
+#banner {
+    position: relative;
+}
+
+#banner h1 {
+    font-family: mont-xtbold;
+    font-size:42px;
+    color:#000000;
+    text-transform: uppercase;
+    padding-top:200px;
+}
+
+#banner p {
+    font-family: mont-bold;
+    font-size:30px;
+    line-height:39px;
+    color:#000000;
+    text-transform: uppercase;
+}
+
+#banner img {
+    position: absolute;
+    bottom:-332px;
+    left:0;
+}
+
+/* ================= Banner Part End ====================== */
+
+/* ================= SPM Part Start ====================== */
+
+#whatspm {
+    padding-top:423px;
+}
+
+.spm-head p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:26px;
+    color:#000;
+    padding-bottom:55px;
+}
+
+.spm-belmatha {
+    position:relative;
+}
+
+.spm-belmatha .bald-head {
+    box-shadow: 0px 0px 20px 0px rgb(131, 131, 131);
+    border-radius:8px;
+}
+
+.grarrow {
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:-43px;
+}
+
+/* ================= SPM Part End ====================== */
+
+/* ================= SPM Part Start ====================== */
+
+#whatspm {
+    padding-top:423px;
+    padding-bottom:105px;
+}
+
+.spm-head p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:32px;
+    color:#000;
+    padding-bottom:65px;
+}
+
+.spm-belmatha {
+    position:relative;
+}
+
+.spm-belmatha .bald-head {
+    box-shadow: 0px 0px 20px 0px rgb(131, 131, 131);
+    border-radius:8px;
+}
+
+.grarrow {
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:-43px;
+}
+
+/* ================= SPM Part End ====================== */
+
+/* ================= Why Part Start ====================== */
+
+#whychoose {
+    padding-bottom:105px;
+}
+
+.why-pic {
+    position: relative;
+    margin-top:20px;
+}
+
+.why-pic .why-up {
+    position: absolute;
+    top:0;
+    right:0;
+    width:300px;
+    box-shadow: -20px 0px 50px 0px rgb(131, 131, 131, 0.5);
+    border-radius:8px;
+}
+
+.why-down {
+    margin-top:200px;
+    width:300px;
+    box-shadow: 0px 0px 50px 0px rgba(161, 159, 159);
+    border-radius:8px;
+}
+
+.why-des {
+    background:#fff;
+    box-shadow: 0px 0px 50px 0px rgba(161, 159, 159);
+    border-radius:10px;
+    padding:30px;
+    box-sizing: border-box;
+    margin-top:80px;
+}
+
+.why-des p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:32px;
+    color:#000;
+}
+
+/* ================= Why Part End ====================== */
+
+/* ================= Tatto Part Start ====================== */
+
+#tatto {
+    background:url(../images/tatto-bg.png) no-repeat center;
+    background-size:cover;
+    padding: 130px 0;
+}
+
+.tatto-des {
+    padding:30px;
+    box-sizing:border-box;
+    background:rgba(0, 0, 0, 0.685);
+    border-radius:10px;
+}
+
+.tatto-des h3 {
+    font-family:mont-xtbold;
+    font-size:28px;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+.tatto-des p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:32px;
+    color:#fff;
+    padding-top:10px;
+}
+
+/* ================= Tatto Part End ====================== */
+
+/* ================= We Do Part Start ====================== */
+
+#wedo {
+    padding-top:95px;
+    border-bottom: 5px solid #000;
+}
+
+.wedo-item {
+    text-align: center;
+    margin-top:40px;
+}
+
+.wedo-item img {
+    filter: drop-shadow(0px 5px 6px #999);
+}
+
+.wedo-item h4 {
+    font-family:mont-xtbold;
+    font-size:19px;
+    color:#000;
+    padding-top: 35px;
+    padding-bottom:15px;
+    text-transform: uppercase;
+}
+
+.wedo-item p {
+    font-family:robo-reg;
+    font-size:16px;
+    color:#000;
+    line-height:26px;
+    padding-bottom:10px;
+}
+
+.wedo-item a {
+    font-family:robo-bold;
+    font-size:16px;
+    color:#0066FF;
+}
+
+.wedo-bottom-bg {
+    padding-top:100px;
+}
+
+/* ================= We Do Part End ====================== */
+
+/* ================= Footer Part Start ====================== */
+
+footer {
+    padding:60px 0;
+    background:url(../images/footer-map.png) no-repeat center;
+}
+
+.footer-brand {
+    position: relative;
+    display:block;
+}
+
+.footer-brand img {
+    position: absolute;
+    top:-40px;
+    left:50%;
+    transform: translateX(-50%) scale(.7);
+}
+
+.footer-item h3 {
+    font-family:mont-xtbold;
+    font-size:28px;
+    text-transform:uppercase;
+    color:#000;
+    padding-bottom:20px;
+}
+
+.footer-item ul li {
+    font-family: robo-reg;
+    font-size:16px;
+    line-height:30px;
+    text-transform:uppercase;
+}
+
+.footer-item ul li a {
+    color:#000;
+}
+
+.footer-item p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:26px;
+    color:#000;
+    padding-right:100px;
+}
+
+.footer-item p span {
+    font-family:robo-bold;
+}
+
+.footer-tel {
+    margin-top:15px;
+}
+
+.footer-tel li a {
+    font-family: robo-bold;
+    font-size:16px;
+    line-height:30px;
+    color:#0066FF !important;
+}
+
+.footer-tel li a i {
+    padding-right:8px;
+}
+
+.social li {
+    display:inline-block;
+    text-align: center;
+    margin:0 5px;
+}
+
+.social li a i {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    color:#0066FF;
+    border-radius:50%;
+    background:#fff;
+    box-shadow: 0px 0px 20px 0px rgba(153, 153, 153, 0.685);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.social li a i:hover {
+    background:#0066FF;
+    color:#fff;
+}
+
+#cpryt {
+    background:#F3F3F3;
+    padding:20px 0;
+    text-align:center;
+}
+
+#cpryt p {
+    font-family: robo-reg;
+    font-size:16px;
+    color:#000;
+}
+
+/* ================= Footer Part End ====================== */
+
+/* ================= Breadcumb Part Start ====================== */
+
+#breadcumb {
+    position: relative;
+}
+
+#breadcumb h2 {
+    padding-top:200px;
+}
+
+#breadcumb img {
+    position: absolute;
+    bottom:-150px;
+}
+
+/* ================= Breadcumb Part End ====================== */
+
+/* ================= Treatment Part Sart ====================== */
+
+#treatment {
+    padding-top:250px;
+    border-bottom: 5px solid #000;
+}
+
+.treat-des h3 {
+    font-family: mont-xtbold;
+    font-size:28px;
+    color:#000;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+
+.treat-des p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:26px;
+    color:#000;
+    padding-bottom:30px;
+}
+
+.treat-pic {
+    position: relative;
+}
+
+.treat-up {
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    border-radius:8px;
+    box-shadow: -10px 0px 50px 0px rgb(131, 131, 131, 0.7);
+}
+
+.treat-down {
+    margin-top:130px;
+    width:300px;
+    box-shadow: -10px 0px 50px 0px rgb(131, 131, 131, 0.7);
+}
+
+.treat-pad {
+    padding-bottom:60px;
+}
+
+.treat-top {
+    position: absolute;
+    top:0;
+    right:0;
+    width:300px;
+    border-radius:8px;
+    box-shadow: -10px 0px 50px 0px rgb(131, 131, 131, 0.7);
+}
+
+.treat-bottom {
+    margin-top:130px;
+    width:300px;
+    box-shadow: -10px 0px 50px 0px rgb(131, 131, 131, 0.7);
+}
+
+.treat-pad-bottom {
+    padding-bottom:100px;
+}
+
+/* ================= Treatment Part End ====================== */
+
+/* ================= FAQ Part Start ====================== */
+
+#faq {
+    padding-top:250px;
+    border-bottom:5px solid #000;
+}
+
+.faq-line {
+    position: relative;
+}
+
+.faq-item {
+    position: relative;
+}
+
+.faq-line::before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 100%;
+	top: 5px;
+	left: 10px;
+	background: #000;
+}
+
+.faq-item i {
+    font-size:22px;
+    color:#000;
+    position: absolute;
+    top:5px;
+    left:0;
+    background:#fff;
+}
+
+.faq-item h4 {
+    font-family:mont-xtbold;
+    font-size:19px;
+    line-height:30px;
+    text-transform:uppercase;
+    color:#000;
+    padding-left:30px;
+    padding-bottom:10px;
+}
+
+.faq-item p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:26px;
+    color:#000;
+    padding-left:30px;
+    padding-bottom:30px;
+}
+
+.faq-bottom-bg {
+    padding-top:100px;
+}
+
+/* ================= FAQ Part End ====================== */
+
+/* ================= About Part Start ====================== */
+
+#about {
+    padding-top:250px;
+    border-bottom: 5px solid #000;
+}
+
+.about-side-img {
+    padding-top:150px;
+}
+
+.about-img img {
+    filter: drop-shadow(0px 15px 6px #999);
+}
+
+.about-des {
+    padding-top:30px;
+}
+
+.about-des h3 {
+    font-family: mont-xtbold;
+    font-size:28px;
+    color:#000;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+
+.about-des p {
+    font-family:robo-reg;
+    font-size:16px;
+    line-height:26px;
+    color:#000;
+    padding-bottom:100px;
+}
+
+/* ================= About Part End ====================== */
+
+/* ================= Contact Part Start ====================== */
+
+#contact {
+    padding-top:250px;
+    border-bottom: 5px solid #000;
+}
+
+#contact h3 {
+    font-family: mont-xtbold;
+    font-size:28px;
+    color:#000;
+    text-transform:uppercase;
+    padding-bottom:60px;
+}
+
+#contact .faq-item h4 {
+    line-height:30px;
+}
+
+#contact .faq-item a {
+    font-family: robo-bold;
+    font-size:18px;
+    color:#0066FF;
+    padding-left:30px;
+    padding-bottom:30px;
+}
+
+#test {
+    height:400px;
+    margin-top:40px;
+}
+
+.contact-item-main {
+    margin-top:-60px;
+    margin-bottom: 100px;
+}
+
+.contact-item {
+    background:#fff;
+    box-shadow: 0px 0px 30px 0px #999;
+    padding:30px;
+    box-sizing:border-box;
+    border-radius:10px;
+    height:190px;
+}
+
+.contact-item img {
+    width:60px;
+    padding-bottom:15px;
+}
+
+.contact-item p {
+    font-family:robo-bold;
+    font-size:18px;
+    line-height: 25px;
+    color:#000;
+}
+
+.contact-item i {
+    font-size:30px;
+    color:#0066FF;
+}
+
+.contact-item h6 {
+    font-size:20px;
+    color:#0066FF;
+    padding:15px 0;
+    text-transform:uppercase;
+}
+
+.con-phone p {
+    font-size:25px;
+    padding-top:10px;
+}
+
+/* ================= Contact Part End ====================== */
